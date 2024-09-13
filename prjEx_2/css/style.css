@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    border: 1px solid;
+    border-color: #070000;
+}
+
+td {
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    border:1px solid;
+    text-align: center;
+}
+
+.primeira {
+    background-color:#88cdf6 ;
+}
+.segunda {
+    background-color:#5361c1 ;
+}
+.terceira {
+    background-color:  #532aba;
+}
+a {
+    text-decoration: none;
+    border: 1px solid;
+    border-color: #99A1AA;
+    padding: 10px 30px;
+}
+
+a:hover {
+    background-color: #555C66;
+    color: #ffffff;
+}
+
+.red {
+    background-color: #88cdf6;
+    color: #88cdf6;
+    color:#F5F7FA
+}
+.blu {
+    background-color: #5361c1;
+    color: #5361c1;
+    color:#F5F7FA
+}
+.gre {
+    background-color: #532aba;
+    color: #532aba;
+    color:#F5F7FA
+}
+
+.red:hover {
+    background-color: #953244;
+    color: #FFFFFF;
+
+}
+
+.central {
+    background-color: #F5F7FA;
+}
+
+th {
+    padding: 15px 0;
+    color: #0a0101;
+}
+
+th:nth-child(1) {
+    color: #000;
+    background-color: white;
+}
+
+th:nth-child(2) {
+    background-color: white;
+}
+
+th:nth-child(3) {
+    background-color: white;
+}
+
+th:nth-child(4) {
+    background-color: white;
+}
